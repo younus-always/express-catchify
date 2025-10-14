@@ -1,8 +1,9 @@
 {
   "name": "express-catchify",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple async wrapper for Express routes to handle errors cleanly.",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "vitest",
