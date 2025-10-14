@@ -1,0 +1,12 @@
+# Ignore local test server
+src/test/test.js
+
+# Ignore node_modules (npm ignores it by default, but safe to include)
+node_modules
+
+# Ignore local configs and IDE files
+.vscode
+*.log
+
+# Ignore package lock for published package
+package-lock.json

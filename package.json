@@ -1,26 +1,33 @@
 {
   "name": "express-catchify",
   "version": "1.0.0",
-  "description": "A tiny async error handler for Express that removes repetitive try/catch blocks.",
-  "main": "index.js",
+  "description": "A simple async wrapper for Express routes to handle errors cleanly.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "prepare": "vitest run",
+    "start:dev":"node ./src/test/test.js"
+  },
   "keywords": [
     "express",
-    "async",
-    "error-handler",
-    "catchAsync",
     "middleware",
-    "nodejs",
-    "utility"
+    "async",
+    "error-handling",
+    "catchify"
   ],
   "author": "MD. Younus Islam",
   "license": "MIT",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "https://github.com/younus-always/express-catchify.git"
   },
-  "engines": {
-    "node": ">=14"
+  "peerDependencies": {
+    "express": ">=4.0.0"
   },
-  "dependencies": {
-    "express": "^5.1.0"
+  "devDependencies": {
+    "express": "^5.1.0",
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.4"
   }
 }
