@@ -4,4 +4,4 @@ declare function catchify(
       fn: (req: Request, res: Response, next: NextFunction) => any
 ): RequestHandler;
 
-export default catchify;
+export = catchify;
