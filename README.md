@@ -1,3 +1,7 @@
+![npm version](https://img.shields.io/npm/v/express-catchify)
+![downloads/week](https://img.shields.io/npm/dw/express-catchify)
+![license](https://img.shields.io/npm/l/express-catchify)
+
 # express-catchify
 
 A simple async wrapper for Express routes to handle errors cleanly.  
@@ -71,3 +75,4 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 - Eliminates repetitive try-catch blocks.
 - Works with any async route in Express.
 - Makes your routes cleaner and easier to read.
+
